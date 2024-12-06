@@ -12,6 +12,7 @@ info <- function(){
     ,"project.create_gitignore" = "Create a .gitignore file"
     ,"project.add_to_gitignore" = "Add a character string or character vector of items to the .gitignore file"
     ,"project.remove_from_gitignore" = "Remove a character string or character vector of items from the .gitignore file"
+    ,"project.set_working_directory" = "Interactive UI to set your working directory"
   )
 
   # Determine the maximum length of the function names

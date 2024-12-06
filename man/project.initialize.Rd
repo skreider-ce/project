@@ -2,16 +2,13 @@
 % Please edit documentation in R/project.initialize.R
 \name{project.initialize}
 \alias{project.initialize}
-\title{project.initialize Initialize the project}
+\title{Initialize the project}
 \usage{
-project.initialize(.wd = getwd())
-}
-\arguments{
-\item{.wd}{The base working directory of the project. This should be where the .gitignore file lives (DEFAULT is getwd())}
+project.initialize()
 }
 \description{
-project.initialize Initialize the project
+Initialize the project
 }
 \examples{
-project.initialize(getwd())
+project.initialize()
 }
