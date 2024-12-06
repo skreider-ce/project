@@ -4,7 +4,10 @@
 \alias{hello_world}
 \title{hello_world}
 \usage{
-hello_world()
+hello_world(your_name = "ExampleNameium")
+}
+\arguments{
+\item{your_name}{The name to be displayed (default is ExampleNameium)}
 }
 \description{
 hello_world
