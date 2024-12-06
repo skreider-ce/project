@@ -8,10 +8,10 @@
 #' corproject::info()
 info <- function(){
   function_list <- list(
-    "project.add_to_gitignore" = "Add a character string or character vector of items to the .gitignore file"
-    ,"project.remove_from_gitignore" = "Remove a character string or character vector of items from the .gitignore file"
-    ,"project.initialize" = "Initialize the project"
+    "project.initialize" = "Initialize the project"
     ,"project.create_gitignore" = "Create a .gitignore file"
+    ,"project.add_to_gitignore" = "Add a character string or character vector of items to the .gitignore file"
+    ,"project.remove_from_gitignore" = "Remove a character string or character vector of items from the .gitignore file"
   )
 
   # Determine the maximum length of the function names
