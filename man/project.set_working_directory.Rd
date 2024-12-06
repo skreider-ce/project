@@ -13,5 +13,5 @@ NULL if cancelled or directory not selected; the URL of the directory is selecte
 An Rstudio interactive UI to set your working directory
 }
 \examples{
-project.set_working_directory()
+#project.set_working_directory()
 }

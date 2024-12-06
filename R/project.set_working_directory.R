@@ -5,7 +5,7 @@
 #' @return NULL if cancelled or directory not selected; the URL of the directory is selected
 #'
 #' @examples
-#' project.set_working_directory()
+#' #project.set_working_directory()
 project.set_working_directory <- function() {
   ui <- miniUI::miniPage(
     miniUI::gadgetTitleBar("Select your Working directory", right = NULL)

@@ -10,5 +10,5 @@ project.initialize()
 Initialize the project
 }
 \examples{
-project.initialize()
+#project.initialize()
 }

@@ -3,7 +3,7 @@
 #' @export
 #'
 #' @examples
-#' project.initialize()
+#' #project.initialize()
 project.initialize <- function(){
 
   # Request explicit working directory assignment
