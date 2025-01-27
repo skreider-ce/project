@@ -42,8 +42,7 @@ summarize_dataset<- function(dataset){
 
 summary_table=summarize_dataset(analysis_dataset)
 
-
-
+str(analysis_dataset)
 ###Summarize all the steps above.
 
 
