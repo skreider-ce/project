@@ -1,14 +1,12 @@
 # test function2
-library(haven)
-setwd("C:/Users/ThomasEckmann/Documents/GitHub/corproject/R/Tom Practice/")
 
+setwd("C:/Users/ThomasEckmann/Documents/GitHub/corproject/R/Tom Practice/")
 data <- read_dta("C:/Users/ThomasEckmann/Corrona LLC/Biostat Data Files - PsO/monthly/2025/2025-01-10/exvisit_2025-01-10.dta")
 
 
+
+# Distribution function
 library(ggplot2)
-library(scales)  # For percentage formatting
-
-
 
 plot_distribution <- function(dataframe, var, bins = 10, xlim = NULL) {
   # Check if the variable (var) exists

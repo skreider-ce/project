@@ -1,11 +1,11 @@
 
-# test function
-library(haven)
 setwd("C:/Users/ThomasEckmann/Documents/GitHub/corproject/R/Tom Practice/")
-
 data <- read_dta("C:/Users/ThomasEckmann/Corrona LLC/Biostat Data Files - PsO/monthly/2025/2025-01-10/exvisit_2025-01-10.dta")
 
-##
+
+# Save function
+library(haven)
+
 test_function <- function(data, path, file_type = "rds") {
   # Check file type
   if(!file_type %in% c("rds", "dta")) {
@@ -21,16 +21,10 @@ test_function <- function(data, path, file_type = "rds") {
   }
 }
 
-test_function(data,"example.rds",file_type = "rds")
-test_function(data,"example.dta",file_type = "dta")
-
-getwd()
 # Example usage:
-df <- data.frame(a = 1:5, b = letters[1:5])
 
 # Save as RDS
-save_data(df, "example.rds", file_type = "rds")
-
+test_function(data,"example.rds",file_type = "rds")
 # Save as Stata DTA
-save_data(df, "example.dta", file_type = "dta")
+test_function(data,"example.dta",file_type = "dta")
 
