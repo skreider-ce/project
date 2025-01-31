@@ -2,8 +2,8 @@
 # Author:  Yolanda Munoz Maldonado
 # Date:    01/30/2025
 # Purpose: function to run bivariate regression of one outcome
-#          agains a list of covariates and generate a table with
-#          the coefficient, SD, and p-value
+#          against a list of covariates and generate a table with
+#          the coefficient, SE, and p-value
 #----------------------------------------------------------------
 
 # loading libraries
@@ -13,8 +13,24 @@ library("officer")
 library("glue")
 
 
-bivariate_table <- function(data,covariates,outcome,  digits)
+#' Title bivariate_table
+#' Function that runs bivariate regressions of one outcome agains a list of covariates, and
+#' generates a table with the beta coefficient, standard error, and p-values.
+#' Requires the libraries dplyr, officer, glue and flextable.
+#' @param data clean data frame that includes the outcome and the covariates for the bivarate regression.
+#' @param covariates list of covariates.To be  included in a linear regression model as independet variable.
+#' @param outcome outcome of interest in the linear regression model
+#' @param digits number of digits for the estimated parameters
+#'
+#' @return
+#' @export
+#'
+#' @examples
+bivariate_table <- function(data,covariates,outcome, digits)
 {
+
+
+
   results <- data.frame(Covariate = character(),
                         Beta = numeric(),
                         Std_Error = numeric(),
