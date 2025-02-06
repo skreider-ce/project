@@ -13,7 +13,13 @@ Imports:
     miniUI,
     shiny,
     shinyjs,
-    svDialogs
+    svDialogs, 
+    dplyr, 
+    docxtractr, 
+    huxtable, 
+    flextable, 
+    officer, 
+    utils
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
