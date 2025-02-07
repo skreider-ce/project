@@ -6,6 +6,17 @@ data <- read_dta("C:/Users/ThomasEckmann/Corrona LLC/Biostat Data Files - PsO/mo
 # Save function
 library(haven)
 
+#' Test Function: Saving for R or Stata
+#'
+#' @param data Data that you want to save
+#' @param path File path or directory
+#' @param file_type Specify 'rds' or 'dta'
+#'
+#' @return
+#' @export
+#'
+#' @examples
+
 test_function <- function(data, path, file_type = "rds") {
   # Check file type
   if(!file_type %in% c("rds", "dta")) {

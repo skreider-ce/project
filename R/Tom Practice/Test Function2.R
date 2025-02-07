@@ -8,6 +8,19 @@ data <- read_dta("C:/Users/ThomasEckmann/Corrona LLC/Biostat Data Files - PsO/mo
 # Distribution function
 library(ggplot2)
 
+#' Function to create a plot/distribution figure for any continuous variable
+#'
+#' @param dataframe Data that will be used to plot
+#' @param var Variable that you want to plot
+#' @param bins Number of bins in the plot
+#' @param xlim Set the limit on the x-axis. Default is no limit
+#'
+#' @return
+#' @export
+#'
+#' @examples
+
+
 plot_distribution <- function(dataframe, var, bins = 10, xlim = NULL) {
   # Check if the variable (var) exists
   if (!(var %in% colnames(dataframe))) {
