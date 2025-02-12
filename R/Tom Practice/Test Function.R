@@ -1,21 +1,16 @@
 
-setwd("C:/Users/ThomasEckmann/Documents/GitHub/corproject/R/Tom Practice/")
-data <- read_dta("C:/Users/ThomasEckmann/Corrona LLC/Biostat Data Files - PsO/monthly/2025/2025-01-10/exvisit_2025-01-10.dta")
-
-
-# Save function
-library(haven)
-
 #' Test Function: Saving for R or Stata
 #'
-#' @param data Data that you want to save
+#' @param data Any dataset we want to save
 #' @param path File path or directory
 #' @param file_type Specify 'rds' or 'dta'
 #'
-#' @return
+#' @return The saved file
 #' @export
 #'
-#' @examples
+#' @importFrom haven
+#'
+#' @examples below
 
 test_function <- function(data, path, file_type = "rds") {
   # Check file type
@@ -35,7 +30,7 @@ test_function <- function(data, path, file_type = "rds") {
 # Example usage:
 
 # Save as RDS
-test_function(data,"example.rds",file_type = "rds")
+#test_function(data,"example.rds",file_type = "rds")
 # Save as Stata DTA
-test_function(data,"example.dta",file_type = "dta")
+#test_function(data,"example.dta",file_type = "dta")
 

@@ -1,12 +1,3 @@
-# test function2
-
-setwd("C:/Users/ThomasEckmann/Documents/GitHub/corproject/R/Tom Practice/")
-data <- read_dta("C:/Users/ThomasEckmann/Corrona LLC/Biostat Data Files - PsO/monthly/2025/2025-01-10/exvisit_2025-01-10.dta")
-
-
-
-# Distribution function
-library(ggplot2)
 
 #' Function to create a plot/distribution figure for any continuous variable
 #'
@@ -15,10 +6,12 @@ library(ggplot2)
 #' @param bins Number of bins in the plot
 #' @param xlim Set the limit on the x-axis. Default is no limit
 #'
-#' @return
+#' @return A plot/distribution of the given variable
 #' @export
 #'
-#' @examples
+#' @importFrom ggplot2
+#'
+#' @examples Below
 
 
 plot_distribution <- function(dataframe, var, bins = 10, xlim = NULL) {
@@ -50,6 +43,6 @@ plot_distribution <- function(dataframe, var, bins = 10, xlim = NULL) {
 }
 
 # Example usage:
-plot_distribution(data, "bmi", bins = 20, xlim = c(10, 50))
-plot_distribution(data, "age")
-plot_distribution(data, "age",bins = 20, xlim=c(18,85))
+#plot_distribution(data, "bmi", bins = 20, xlim = c(10, 50))
+#plot_distribution(data, "age")
+#plot_distribution(data, "age",bins = 20, xlim=c(18,85))
