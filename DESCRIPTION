@@ -13,7 +13,6 @@ Imports:
     miniUI,
     shiny,
     shinyjs,
-    svDialogs
     svDialogs,
     dplyr
 Suggests: 
