@@ -26,3 +26,10 @@ returns a list with the raw filled in result table and the flextable as well as 
 \description{
 Function that fills in the Registry QC document for monthly and quarterly reports
 }
+\examples{
+# fill_registry_qc_doc("C:/Users/NicoleFergestrom/Corrona LLC/Biostat and Epi Team Site - Biostat QC/Biostat Registry - Monthly and Quarterly Report QC Checklist.docx",
+# results_folder = "C:/Users/NicoleFergestrom/OneDrive - Corrona LLC/OneDrive Corevitas/Documents/scrap/corProject_test",
+# final_name = "Filled QC Registry QC Checklist",
+# analyst_initials = "NF")
+
+}
