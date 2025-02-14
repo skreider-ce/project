@@ -7,13 +7,13 @@
 #' @return A misspelled word
 #' @export
 #'
-#' @examples misspell_swap("test", 1,2)
+#' @examples misspell_swap2("test", 1,2)
 
 
 
 #Random Character Swap:  Swap two adjacent characters
 
-misspell_swap <- function(word, start_pos, split_num) {
+misspell_swap2 <- function(word, start_pos, split_num) {
   word_length <- nchar(word)
   
   # Check for errors
