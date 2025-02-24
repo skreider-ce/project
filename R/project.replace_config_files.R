@@ -1,3 +1,5 @@
+#' project.replace_config_files
+#'
 #' Take in an input_folder with folders that contain config.R files - searches through final_folder and if the subfolder exists then copies config.R to the subfolder in the final_folder
 #'
 #' Function partially written with help from Gene.AI

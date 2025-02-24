@@ -1,3 +1,5 @@
+#' project.extract_config_files
+#'
 #' Searches through a base folder and looks for config.R files - if found - creates an identical folder name in the output folder and copies the config.R file there
 #'
 #' Function partially written with help from Gene.AI

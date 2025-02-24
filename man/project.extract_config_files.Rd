@@ -2,7 +2,7 @@
 % Please edit documentation in R/project.extract_config_files.R
 \name{project.extract_config_files}
 \alias{project.extract_config_files}
-\title{Searches through a base folder and looks for config.R files - if found - creates an identical folder name in the output folder and copies the config.R file there}
+\title{project.extract_config_files}
 \usage{
 project.extract_config_files(base_folder, output_folder)
 }
@@ -12,5 +12,8 @@ project.extract_config_files(base_folder, output_folder)
 \item{output_folder}{The folder to store the results in}
 }
 \description{
+Searches through a base folder and looks for config.R files - if found - creates an identical folder name in the output folder and copies the config.R file there
+}
+\details{
 Function partially written with help from Gene.AI
 }
