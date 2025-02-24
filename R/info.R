@@ -11,7 +11,9 @@ info <- function(){
     "project.initialize" = "Initialize the project"
     ,"project.create_gitignore" = "Create a .gitignore file"
     ,"project.add_to_gitignore" = "Add a character string or character vector of items to the .gitignore file"
+    ,"project.extract_config_giles" = "Recursively extract config.R files from a folder and copy to output folder"
     ,"project.remove_from_gitignore" = "Remove a character string or character vector of items from the .gitignore file"
+    ,"project.replace_config_files" = "Copy config.R files from an input folder to any matching folders in a final folder"
     ,"project.set_working_directory" = "Interactive UI to set your working directory"
   )
 
