@@ -1,12 +1,14 @@
 #' Searches through a base folder and looks for config.R files - if found - creates an identical folder name in the output folder and copies the config.R file there
 #'
+#' Function partially written with help from Gene.AI
+#'
 #' @param base_folder The folder that contains subfolders to search through
 #' @param output_folder The folder to store the results in
 #'
 #' @export
 #'
 #' @importFrom fs is_dir path_file dir_ls dir_create file_copy
-project.copy_config_files <- function(base_folder, output_folder) {
+project.extract_config_files <- function(base_folder, output_folder) {
 
   # Function to recursively search and copy config.R files
   process_folder <- function(current_folder, relative_path) {
