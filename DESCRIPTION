@@ -16,7 +16,10 @@ Imports:
     svDialogs,
     dplyr,
     janitor,
-    rlang
+    rlang,
+    svDialogs,
+    dplyr,
+    fs
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
