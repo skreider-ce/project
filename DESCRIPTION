@@ -12,14 +12,7 @@ Imports:
     glue,
     miniUI,
     shiny,
-    shinyjs,
     svDialogs, 
-    dplyr, 
-    docxtractr, 
-    huxtable, 
-    flextable, 
-    officer, 
-    utils,
     fs
 Suggests: 
     testthat (>= 3.0.0)
