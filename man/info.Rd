@@ -10,5 +10,5 @@ info()
 info Print information about the available functions in this package
 }
 \examples{
-corproject::info()
+project::info()
 }
