@@ -5,7 +5,7 @@
 #' @importFrom glue glue
 #'
 #' @examples
-#' corproject::info()
+#' project::info()
 info <- function(){
   function_list <- list(
     "project.initialize" = "Initialize the project"
