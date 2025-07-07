@@ -9,7 +9,7 @@
     #' @export
     #' @importFrom dplyr summarize %>%
     #' @examples
-    #' corproject::my_new_function(cars, speed, dist)
+    #' project::my_new_function(cars, speed, dist)
 my_new_function<- function(data, var1, var2) {
   data %>%
     summarize(

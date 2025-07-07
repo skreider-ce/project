@@ -20,5 +20,5 @@ the variable mean
 Takes dataset and gives us mean value between two variables
 }
 \examples{
-corproject::my_new_function(cars, speed, dist)
+project::my_new_function(cars, speed, dist)
 }

@@ -1,4 +1,4 @@
-Package: corproject
+Package: project
 Title: Functions for project initialization and maintenance. Includes setting up an interactive UI to interactively choose required input and output files and folders
 Version: 0.1.0
 Authors@R: 
@@ -12,7 +12,6 @@ Imports:
     glue,
     miniUI,
     shiny,
-    shinyjs,
     svDialogs,
     dplyr,
     janitor,
