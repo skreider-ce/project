@@ -13,11 +13,6 @@ Imports:
     miniUI,
     shiny,
     svDialogs,
-    dplyr,
-    janitor,
-    rlang,
-    svDialogs,
-    dplyr,
     fs
 Suggests: 
     testthat (>= 3.0.0)
