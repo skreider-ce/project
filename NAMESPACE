@@ -3,6 +3,7 @@
 export(fill_registry_qc_doc)
 export(hello_world)
 export(info)
+export(misspell_swap2)
 export(project.add_to_gitignore)
 export(project.create_gitignore)
 export(project.extract_config_files)
