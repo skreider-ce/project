@@ -1,4 +1,4 @@
-Package: corproject
+Package: project
 Title: Functions for project initialization and maintenance. Includes setting up an interactive UI to interactively choose required input and output files and folders
 Version: 0.1.0
 Authors@R: 
@@ -20,6 +20,8 @@ Imports:
     flextable, 
     officer, 
     utils
+    svDialogs,
+    fs
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3

@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(corproject)
+library(project)
 
-test_check("corproject")
+test_check("project")
